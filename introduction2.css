@@ -1,6 +1,26 @@
+.barsBtn{
+    display: none;
+}
+
+.bars{
+    left: 0;
+}
+
+.hamburger_bar{
+    width: 100%;
+    height: 60px;
+    padding: 15px;
+    top: 50px;
+    left: -100%;
+    border: 1px black dotted;
+}
+
+#bars:checked + .hamburger_bar{
+    transform: translateX(100%);
+}
 
 .matte{
-    background-image: url(https://picsum.photos/id/255/500/150);
+    background-image: url(https://picsum.photos/id/255/125/180);
     margin-top: 10px;
     position: relative;
 }
