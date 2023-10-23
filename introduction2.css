@@ -11,9 +11,16 @@
         opacity: 0;
     }
 
-    .why{
+    .box{
+        margin: 10px;
+    }
+
+    .why , .resone{
         writing-mode: vertical-lr;
-        transform: translateX(45%);
+    }
+
+    .why{
+        background-color: rgba(41,168,71,.1);
     }
 
     .instruction{
@@ -28,6 +35,11 @@
     .logo{
         position: absolute;
         left: 0;
+    }
+
+    .resone{
+        position: relative;
+        left: 45%;
     }
 
 }
